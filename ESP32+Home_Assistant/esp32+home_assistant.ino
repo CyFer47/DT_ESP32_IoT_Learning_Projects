@@ -3,14 +3,14 @@
 #include <DHT.h>
 
 // -------------------- WiFi Credentials --------------------
-const char* ssid = "Chamara fernando";     // WiFi Network Name
-const char* password = "BBB12345";         // WiFi Password
+const char* ssid = "YOUR_WIFI_SSID";     // WiFi Network Name
+const char* password = "YOUR_WIFI_PASSWORD";         // WiFi Password
 
 // -------------------- MQTT Broker Settings --------------------
-const char* mqtt_server = "172.20.10.3";   // Home Assistant IP Address
+const char* mqtt_server = "192.168.1.XXX";   // Home Assistant IP Address
 const int mqtt_port = 1883;                // MQTT Port
 const char* mqtt_user = "mqtt_user";       // MQTT Username
-const char* mqtt_pass = "root";            // MQTT Password
+const char* mqtt_pass = "mqtt_password";            // MQTT Password
 
 // -------------------- DHT Sensor Setup --------------------
 #define DHTPIN 5                            // GPIO pin connected to DHT11
