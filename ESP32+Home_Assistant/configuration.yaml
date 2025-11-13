@@ -1,0 +1,25 @@
+Is this correct
+
+mqtt:
+  broker: <IP>
+  port: 1884
+  username: mqtt_user
+  password: root
+  discovery: true
+  discovery_prefix: homeassistant
+
+sensor:
+  - platform: mqtt
+    name: "ESP32 Temperature"
+    state_topic: "home/sensor/temperature"
+    unit_of_measurement: "°C"
+    icon: mdi:thermometer
+
+  - platform: mqtt
+    name: "ESP32 Humidity"
+    state_topic: "home/sensor/humidity"
+    unit_of_measurement: "%"
+    icon: mdi:water-percent
+
+
+then what to do next
