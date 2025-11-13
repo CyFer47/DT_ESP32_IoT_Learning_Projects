@@ -1,5 +1,3 @@
-Is this correct
-
 mqtt:
   broker: <IP>
   port: 1884
